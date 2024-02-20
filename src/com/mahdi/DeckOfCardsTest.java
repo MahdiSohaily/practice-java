@@ -4,9 +4,10 @@ import java.time.Month;
 
 public class DeckOfCardsTest {
 
-    public static void main (String[] args)
-    {
-        System.out.println(Math.max(3,6));
+    public static void main(String[] args) {
+        System.out.println(Math.max(3, 6));
         Month current = Month.MARCH;
+        int age = 0;
+        System.out.println(age);
     }
 }
