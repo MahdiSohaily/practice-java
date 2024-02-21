@@ -1,16 +1,14 @@
 package com.mahdi;
 
-import java.util.Arrays;
-
 public class DeckOfCardsTest {
 
     public static void main(String[] args) {
-        System.out.println("Mahdi".endsWith("i"));
-        System.out.println("Mahdi".equals("mahdi"));
-        System.out.println(String.format("Mahdi %d", 3));
+        double x = 1.0;
+        double y = 2.0;
 
-        System.out.println("Mahdi Rezaei Rezaei".replaceFirst("Rezaei","Sohaily" ));
-        System.out.println(Arrays.toString("Mahdi Rezaei Sohaily".split(" ")));
+        // Get the floating-point number adjacent to x in the direction of y
+        double result = Math.nextAfter(x, y);
 
+        System.out.println("Next after " + x + " in the direction of " + y + " is: " + result);
     }
 }
