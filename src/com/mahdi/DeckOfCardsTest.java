@@ -3,9 +3,14 @@ package com.mahdi;
 public class DeckOfCardsTest {
 
     public static void main(String[] args) {
-        char[] names = new char[10];
-        for (char name : names) {
-            System.out.println(name);
-        }
+        greeting();
+        DeckOfCardsTest test = new DeckOfCardsTest();
+        test.welcome();
+    }
+    public static void greeting () {
+        System.out.println("Hello dear Mahdi Rezaei");
+    }
+    public void welcome() {
+        System.out.println("Welcome to the Access Modifiers tutorial");
     }
 }
