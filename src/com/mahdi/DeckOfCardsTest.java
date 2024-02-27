@@ -14,3 +14,8 @@ public class DeckOfCardsTest {
         System.out.println("Welcome to the Access Modifiers tutorial");
     }
 }
+
+abstract  class Test  {
+    String name = "Mahdi";
+    
+}
